@@ -1,0 +1,23 @@
+[
+    {
+        "id": "abcd0",
+        "name": "Collaborate",
+        "description": "Simmi Foundation serves in the collaboration with schools, colleges and other institutions.",
+        "btnText": "Collaborate with us",
+        "img": "https://simmifoundation.org/home/images/objectives/education.jpg"
+    },
+    {
+        "id": "abcd1",
+        "name": "Donate Money",
+        "description": "Your donation will further our mission of ensuring a happy and healthy life of those in need.",
+        "btnText": "Donate now",
+        "img": "https://simmifoundation.org/home/images/objectives/livelihood.jpg"
+    },
+    {
+        "id": "abcd2",
+        "name": "Be a Volunteer",
+        "description": "Even the all-powerful Pointing has no control about the blind texts.",
+        "btnText": "Read More",
+        "img": "https://simmifoundation.org/home/images/objectives/healthcare.jpg"
+    }
+]

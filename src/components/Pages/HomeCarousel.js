@@ -1,5 +1,10 @@
 import React from 'react';
 
+import banner1 from '../../images/banner1.jpeg'
+import banner2 from '../../images/banner2.jpeg'
+import banner3 from '../../images/banner3.jpg'
+import banner4 from '../../images/banner4.jpeg'
+
 const HomeCarousel = () => {
     return (
         <div id="carouselExampleIndicators" class="carousel slide relative" data-bs-ride="carousel">
@@ -34,28 +39,28 @@ const HomeCarousel = () => {
             <div class="carousel-inner relative w-full overflow-hidden">
                 <div class="carousel-item active float-left w-full">
                     <img
-                        src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+                        src={banner1}
                         class="block w-full"
                         alt="Wild Landscape"
                     />
                 </div>
                 <div class="carousel-item float-left w-full">
                     <img
-                        src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+                        src={banner2}
                         class="block w-full"
                         alt="Camera"
                     />
                 </div>
                 <div class="carousel-item float-left w-full">
                     <img
-                        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                        src={banner3}
                         class="block w-full"
                         alt="Exotic Fruits"
                     />
                 </div>
                 <div class="carousel-item float-left w-full">
                     <img
-                        src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                        src={banner4}
                         class="block w-full"
                         alt="Exotic Fruits"
                     />
@@ -67,7 +72,7 @@ const HomeCarousel = () => {
                 data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev"
             >
-                <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon bg-secondary rounded-full inline-block bg-no-repeat" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button
@@ -76,7 +81,7 @@ const HomeCarousel = () => {
                 data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="next"
             >
-                <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon bg-secondary rounded-full inline-block bg-no-repeat" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>

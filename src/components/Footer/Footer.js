@@ -1,11 +1,12 @@
 import React from 'react';
-import { HiOutlineMail, HiLocationMarker, HiPhone } from 'react-icons/hi';
+import { HiLocationMarker, HiPhone } from 'react-icons/hi';
 import { BsFillHeartFill } from 'react-icons/bs';
+import { AiFillMail } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-        <footer class="text-center bg-gray-900 text-white">
-            <div class="container px-6 pt-6">
+        <footer class="text-center bg-accent text-white">
+            <div class="container mx-auto px-6 pt-6">
                 <div class="flex justify-center mb-6">
                     <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-secondary focus:outline-none focus:ring-0 transition duration-300 ease-in-out w-9 h-9 m-1">
                         <svg aria-hidden="true"
@@ -77,7 +78,13 @@ const Footer = () => {
 
                 </div>
 
-                <div>
+                <div class="mb-10">
+                    <h1 className='text-2xl uppercase border-b w-2/12 mx-auto mb-4'>About Us</h1>
+                    <p>
+                        We envisions to develop a society based on legitimate rights, equity, justice, honesty, social sensitivity and a culture of service in which all are self-reliant.
+                    </p>
+                </div>
+                <div className='mb-10'>
                     <form action="">
                         <div class="grid md:grid-cols-3 gird-cols-1 gap-4">
                             <div class="md:ml-auto md:mb-6">
@@ -119,12 +126,6 @@ const Footer = () => {
                     </form>
                 </div>
 
-                <div class="mb-6">
-                    <h1 className='text-2xl uppercase border-b w-2/12 mx-auto mb-4'>About Us</h1>
-                    <p>
-                        We envisions to develop a society based on legitimate rights, equity, justice, honesty, social sensitivity and a culture of service in which all are self-reliant.
-                    </p>
-                </div>
 
                 <div class="grid lg:grid-cols-3 md:grid-cols-1">
 
@@ -139,22 +140,22 @@ const Footer = () => {
                     <div class="mb-6">
                         <h5 class="uppercase font-semibold border-b w-4/12 mb-2.5 mx-auto">Initiatives</h5>
                         <ul class="list-none mb-0">
-                            <li>
+                            <li className='mb-2'>
                                 <a href="#!" class="text-white hover:text-secondary">Khel Sangathan</a>
                             </li>
-                            <li>
+                            <li className='mb-2'>
                                 <a href="#!" class="text-white hover:text-secondary">Sukoon Parikram</a>
                             </li>
-                            <li>
+                            <li className='mb-2'>
                                 <a href="#!" class="text-white hover:text-secondary">Simmi Olympiads</a>
                             </li>
-                            <li>
+                            <li className='mb-2'>
                                 <a href="#!" class="text-white hover:text-secondary">Kalaakaar Manch</a>
                             </li>
-                            <li>
+                            <li className='mb-2'>
                                 <a href="#!" class="text-white hover:text-secondary">Sanskritik Setu</a>
                             </li>
-                            <li>
+                            <li className='mb-2'>
                                 <a href="#!" class="text-white hover:text-secondary">Sambhav Madad</a>
                             </li>
                         </ul>
@@ -164,18 +165,14 @@ const Footer = () => {
 
                         <ul class="list-none mb-0">
                             <li className='flex items-start gap-2 mb-2'>
-                                <div>
-                                    <p className='flex items-center gap-2'> <HiLocationMarker></HiLocationMarker> <span>Address:</span></p>
-                                </div>
-
-                                <a className='hover:text-secondary' href="https://www.google.com.bd/maps/dir/23.755121,90.3600549//@23.7550124,90.3603433,20z/data=!4m2!4m1!3e0?hl=en" target="_blank" rel="noreferrer">479, Baspadamka, Tehsil Pataudi, Gurugram, Haryana - 122503, India</a>
-
+                                <p className='flex items-start'> <HiLocationMarker className='text-2xl mr-1'></HiLocationMarker>
+                                    <a className='hover:text-secondary' href="https://www.google.com.bd/maps/dir/23.755121,90.3600549//@23.7550124,90.3603433,20z/data=!4m2!4m1!3e0?hl=en" target="_blank" rel="noreferrer">479, Baspadamka, Tehsil Pataudi, Gurugram, Haryana - 122503, India</a></p>
                             </li>
                             <li>
-                                <p className='flex items-center gap-2 mb-2'> <HiPhone></HiPhone> <span>Phone:</span> <a className='hover:text-secondary' href="tel://+8801842502822">(+91)70152-95025</a></p>
+                                <p className='flex items-center gap-2 mb-2'> <HiPhone></HiPhone> <a className='hover:text-secondary' href="tel://+8801842502822">(+91)70152-95025</a></p>
                             </li>
                             <li>
-                                <p className='flex items-center gap-2'> <HiOutlineMail></HiOutlineMail> <span>Email:</span> <a className='hover:text-secondary' href="mailto:khalidprithy@gmail.com">support@simmifoundation.org</a></p>
+                                <p className='flex items-center gap-2'> <AiFillMail></AiFillMail> <a className='hover:text-secondary' href="mailto:khalidprithy@gmail.com">support@simmifoundation.org</a></p>
                             </li>
                         </ul>
                     </div>
@@ -185,7 +182,7 @@ const Footer = () => {
 
             <div class="p-4 flex items-center justify-center">
                 Copyright ©2022 All rights reserved |
-                <a class="text-white" href="https://tailwind-elements.com/"> <span className='flex items-center gap-2'>Simmi Foundation <BsFillHeartFill></BsFillHeartFill></span> </a>
+                <a class="text-white" href="https://tailwind-elements.com/"><span className='flex items-center gap-2'> Simmi Foundation <BsFillHeartFill></BsFillHeartFill></span> </a>
             </div>
         </footer >
     );
