@@ -1,0 +1,26 @@
+[
+    {
+        "id": "abc0",
+        "name": "Education",
+        "description": "We provide free academic education, scholarship, training and other incentives to the children.",
+        "img": "https://simmifoundation.org/home/images/objectives/education.jpg"
+    },
+    {
+        "id": "abc1",
+        "name": "Livelihood",
+        "description": "We implement various schemes to provide livelihood and uplift the poor in society.",
+        "img": "https://simmifoundation.org/home/images/objectives/livelihood.jpg"
+    },
+    {
+        "id": "abc2",
+        "name": "Healthcare",
+        "description": "We are increasing awareness on Sanitization and providing people with access to better nutrition, clean water and toilets.",
+        "img": "https://simmifoundation.org/home/images/objectives/healthcare.jpg"
+    },
+    {
+        "id": "abc3",
+        "name": "Women and Youth Empowerment",
+        "description": "We focus on providing equal opportunities for women in the work field.",
+        "img": "https://simmifoundation.org/home/images/objectives/women%20empowerment.jpg"
+    }
+]
